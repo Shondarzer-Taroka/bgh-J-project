@@ -5,3 +5,13 @@ $('.btn').click(function() {
     $('.myDiv').append(para)
 })
 
+$(document).ready(function() {
+    $('#hide').click(function() {
+        $('#text-hide').hide()
+    })
+    
+    $('#show').click(function() {
+        $('#text-hide').show()
+    })
+})
+
